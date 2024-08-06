@@ -6,6 +6,6 @@ import { RxService } from './rx.service';
   providedIn: 'root'
 })
 export class DataService {
-  constructor(private rxService: RxService, private apiService: ApiService) {
+  constructor(private apiService: ApiService) {
   }
 }
